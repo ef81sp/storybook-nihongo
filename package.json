@@ -1,0 +1,26 @@
+{
+  "name": "storybook-nihongo-repro",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "@vitejs/plugin-vue": "^6.0.5",
+    "vue": "^3.5.31"
+  },
+  "devDependencies": {
+    "@storybook/addon-docs": "^10.3.4",
+    "@storybook/vue3": "^10.3.4",
+    "@storybook/vue3-vite": "^10.3.4",
+    "storybook": "^10.3.4",
+    "typescript": "^6.0.2",
+    "vite": "^8.0.3",
+    "vue-component-meta": "^3.2.6",
+    "vue-tsc": "^3.2.6"
+  }
+}
