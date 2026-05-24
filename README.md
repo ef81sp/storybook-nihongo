@@ -52,8 +52,8 @@ Both produce the same Unicode-escaped output in the Docs table.
 
 ## Fix status
 
-- `vue-component-meta` 本体では [vuejs/language-tools#6012](https://github.com/vuejs/language-tools/pull/6012) で修正され、[v3.2.7](https://github.com/vuejs/language-tools/releases/tag/v3.2.7) でリリース済みです。
-- ただし `@storybook/vue3-vite` にはまだ取り込まれていません。
+- Fixed in `vue-component-meta` upstream via [vuejs/language-tools#6012](https://github.com/vuejs/language-tools/pull/6012) and released in [v3.2.7](https://github.com/vuejs/language-tools/releases/tag/v3.2.7).
+- However, the fix has not yet been picked up by `@storybook/vue3-vite`.
 
 ## Steps to reproduce
 
