@@ -50,6 +50,11 @@ Both produce the same Unicode-escaped output in the Docs table.
 
 `vue-component-meta` uses TypeScript's `printer.printNode()` to serialize default values ([scriptSetup.ts#L43](https://github.com/vuejs/language-tools/blob/94907be4f056f25867e46a117ab18d2782b425d7/packages/component-meta/lib/scriptSetup.ts#L43), [#L52](https://github.com/vuejs/language-tools/blob/94907be4f056f25867e46a117ab18d2782b425d7/packages/component-meta/lib/scriptSetup.ts#L52)). The printer is created via `ts.createPrinter(checkerOptions.printer)` ([checker.ts#L71](https://github.com/vuejs/language-tools/blob/94907be4f056f25867e46a117ab18d2782b425d7/packages/component-meta/lib/checker.ts#L71)), but the TypeScript printer escapes non-ASCII characters by default. Setting `neverAsciiEscape: true` in the printer options would fix this.
 
+## Fix status
+
+- Fixed in `vue-component-meta` upstream via [vuejs/language-tools#6012](https://github.com/vuejs/language-tools/pull/6012) and released in [v3.2.7](https://github.com/vuejs/language-tools/releases/tag/v3.2.7).
+- However, the fix has not yet been picked up by `@storybook/vue3-vite`.
+
 ## Steps to reproduce
 
 ### Minimal (no Storybook)
