@@ -92,5 +92,5 @@ Default column shows: `"\u3053\u3093\u306B\u3061\u306F"`, `"\u5927\u304D\u3044"`
 - vue-component-meta: 2.2.12
 - Vue: 3.5.31
 - TypeScript: 6.0.2
-- Storybook: 10.3.4
-- @storybook/vue3-vite: 10.3.4
+- Storybook: 10.4.1
+- @storybook/vue3-vite: 10.4.1
